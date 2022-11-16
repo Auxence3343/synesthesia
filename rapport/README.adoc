@@ -16,20 +16,21 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 === Membres du groupe
 
-* Nom1
-* Nom2
-* Nom3
-* Nom4
-* Nom5
-* Nom6
+* BARANOVA,Mariia
+* BENAÏSSA-LEJAY,Ilian
+* DO THUAN,Céline
+* FROMONT,Auxence
+* KADDOURI-WISNIEWSKI,Lina
+* KRIVCENKO,Aleksandrs
+* MARACINE,Lucas
 
 === Tuteur
 
-* xx yy
+* PHAM, Germain
 
 === Encadrant génie logiciel
 
-* xx yy
+* HULCELLE, Marc
 
 <<<
 
