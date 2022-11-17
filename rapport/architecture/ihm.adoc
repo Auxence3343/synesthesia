@@ -12,4 +12,4 @@ supports de discussion : on appelle souvent ces dessins un
 « storyboard ». Une description textuelle fait le lien entre tous les
 éléments de l’IHM (ou des IHMs).
 
-image::../images/imagepremiereetape.png[image première étape]
+image::../images/imagepremiereetape.png[image première étape,450,450]
