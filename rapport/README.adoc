@@ -1,5 +1,5 @@
-= Rapport d’avancement: groupe “x.y”
-PACT groupe xy (Les plus beaux)
+= Rapport d’avancement: groupe “6.4”
+PACT groupe 6.4 (Synestes.IA)
 ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 :doctype: book
 :stem: latexmath
@@ -12,17 +12,17 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 // Partie non numérotée
 :sectnums!:
-== « Nom du groupe »
+== « Synesthes.IA »
 
 === Membres du groupe
 
-* BARANOVA,Mariia
-* BENAÏSSA-LEJAY,Ilian
-* DO THUAN,Céline
-* FROMONT,Auxence
-* KADDOURI-WISNIEWSKI,Lina
-* KRIVCENKO,Aleksandrs
-* MARACINE,Lucas
+* BARANOVA, Mariia
+* BENAÏSSA-LEJAY, Ilian
+* DO THUAN, Céline
+* FROMONT, Auxence
+* KADDOURI-WISNIEWSKI, Lina
+* KRIVCENKO, Aleksandrs
+* MARACINE, Lucas
 
 === Tuteur
 
