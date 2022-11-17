@@ -35,7 +35,7 @@ Le premier module, "traitement d'image" proposé par Michel Roux permettra de d�
 Nous souhaiterions développer lors de ce module plusieurs algorithmes que nous pourrions ensuite assembler de façon a obtenir les meilleurs résultats: +
 - Un filtre permettant d'améliorer les images de tableau de la base de donnée que l'on utilisera, en supprimant des imperfections comme les reflets, l'angle de la photograĥie, le mouvement du photographe et qui redimensionne l'image vers une résolution fixée. +
 - Un algorithme qui récupère une image de la texture 3D d'un tableau 2D mis en entrée afin de pouvoir le classifier plus aisément (à partir des ombres par exemple). +
-- Un algorithme prenant en entrée deux photograpies de deux tableaux et qui calcule une "distance" entre ces deux tableaux en fonction de leur spectres et textures, afin de rapprocher les tableaux à des contenus picturaux proches.+
+- Un algorithme prenant en entrée deux photograpies de deux tableaux et qui calcule une "distance" entre ces deux tableaux en fonction de leur  spectres et textures, afin de rapprocher les tableaux à des contenus picturaux proches.+
 
 Le deuxième module sera encadré par Sthéphane Lathulière. L'objectif de ce module est la classification de tableaux selon différents critères et en utilisant différents modèles. Les premiers objectifs sont: +
 - établir une base de donnée de tableaux sur laquelle nous pourrons effectuer l'apprentissage et les premiers test (environ 300 tableaux) +
