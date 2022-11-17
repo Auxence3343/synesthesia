@@ -38,7 +38,7 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 *_Note: 15 lignes max_*
 
-Suite à une réflexion sur le lien entre les sens et l’art, nous avons cherché à faire vivre une expérience immersive à un individu, lui permettant d’avoir un nouveau point de vue sur des œuvres déjà connues. Simulant les effets d’une synesthésie, l’objectif du projet est de mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle. +
+Suite à une réflexion sur  le lien entre les sens et l’art, nous avons cherché à faire vivre une expérience immersive à un individu, lui permettant d’avoir un nouveau point de vue sur des œuvres déjà connues. Simulant les effets d’une synesthésie, l’objectif du projet est de mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle. +
 Le projet Synesthes.IA se situe à l’intersection de trois domaines qui passionnent tous les membres du groupe : le numérique, le monde de l’art, la peinture en particulier et les sciences cognitives. En effet, ce projet nous a permis de nous plonger dans le monde artistique ainsi qu’explorer les différents liens entre les sens humains, leurs émotions et la perception de l’art. L’utilisation du numérique et notamment de l’intelligence artificielle dans le domaine artistique reste encore un phénomène assez rare, mais utilisé de plus en plus fréquemment de nos jours. 
 
 == English Summary (PAN1)
