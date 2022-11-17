@@ -16,8 +16,23 @@
 
 ==== Interface Site Web / Serveur Python
 
-Une API interne au serveur python permet la communication entre le site et le serveur, elle assure le transfert des fichiers image et vidéos et fait la traduction entre le php et le python.
+==== Interface Utilisateurs---SiteWeb
 
-==== Interface IA / service de génération de musique
+Cette interface se charge de fournir à l'utilisateur le service web. Dans un sens, l'utilisateur se connecte au travers d'une page web. Dans un autre, il reçoit le résultat de la requête d'association par IA (Image-->Son), ce résultat est donc un binaire audio.
 
-L'utilisation de l'API d'un service de génération de musique est prévue au sein du code du serveur python de façon à générer les musiques a partir des paramètres déterminés par notre IA et de transmettre le fichier son a l'API serveur / site.
+==== Interface SiteWeb---BdD
+
+Cette interface se charge de stocker en base de données, les références vers les images choisies par l'utilisateur, dans le cadre de l'évaluation de précision du modèle.
+
+
+==== Interface SiteWeb---Serveur
+
+Cette interface se charge de l'échange des données entre le site web (IHM), et le serveur. Typiquement, les données qui vont y transiter seront du type binaire ou stream pour des images d'évaluation du modèle (afin de les stocker localement sur le serveur).
+
+==== Interface Serveur---ServiceGenerationMusique
+
+Cette interface se charge de soumettre d'une part, une requête vers l'api du service, avec en paramètres les paramètres des générations requis par l'API, qui sont eux ajustés par le modèle en fonction de l'image transmise par l'utilisateur. D'autre part, cette interface permet de communiquer au serveur, le binaire de la musique généré. Le format du retour n'est pas encore défini, car nous hésitons entre plusieurs services disponibles sur le net.
+
+==== Interface Serveur---BdD
+
+Cette interface permet de mettre à disposition de l'IA, un jeu d'entraînement basé sur des images.
