@@ -1,8 +1,8 @@
 === Interface utilisateur graphique
 
 
-image::../images/imagepremiereetape.png[image première étape,450,450]
-image::../images/imagedeuxiemeetape.png[image deuxième étape,450,450]
-image::../images/imagetroisiemeetape.png[image troisième étape,450,450]
-image::../images/imagequatriemeetape.png[image quatrième étape,450,450]
-image::../images/imagejeu.png[image 2bis étape,450,450]
+image::../images/imagepremiereetape.png[image première étape,600,600]
+image::../images/imagedeuxiemeetape.png[image deuxième étape,600,600]
+image::../images/imagetroisiemeetape.png[image troisième étape,600,600]
+image::../images/imagequatriemeetape.png[image quatrième étape,600,600]
+image::../images/imagejeu.png[image 2bis étape,600,600]
