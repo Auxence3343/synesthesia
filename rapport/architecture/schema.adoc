@@ -10,7 +10,7 @@ Voir la liste des outils supportés par http://asciidoctor.org/docs/asciidoctor-
 **(Vous pouvez, bien sûr, utiliser votre outil de dessin préféré).**
 
 [graphviz, arch-diag, svg]
-....
+
 digraph MonGraph {
     graph [rankdir = LR, splines=ortho];
 
@@ -33,7 +33,7 @@ digraph MonGraph {
     Hub -> BlocOut2 [label="Image"];
     Hub -> BlocOut2 [label="commande"];
 }
-....
+
 
 
 ==== Description des blocs
