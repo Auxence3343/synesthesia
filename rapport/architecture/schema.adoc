@@ -27,7 +27,11 @@ Description textuelle du bloc 1.
 
 ===== Reconnaissance d'image + IA
 
-Description textuelle du bloc 1.
+Le module "traitement d'image" proposé par Michel Roux permettra de développer plusieurs algorithmes en Python pour traiter et analyser le contenu pictural des tableaux de la base de données. Le contenu analysé sera la couleur et la texture du tableau.  
+on souhaiterais développer lors de ce module plusieurs algorithmes:
+-un algorithme permettant d'améliorer les images de tableau de la base de donnée que l'on utilisera, en supprimant les imperfections par exemple les reflets, l'angle de la photograĥie, le mouvement du photographe.
+-Un algorithme qui permettrai de de récupérer une image de la texture 3D d'un tableau 2D mis en entrée afin de pouvoir le classifier plus aisément (à partir des ombres par exemple).
+-un algorithme qui prend en entrée deux photograpies de deux tableaux et qui renvoie une "distance" entre ces deux tableaux en fonction des couleurs et textures de ces tableaux, afin de rapprocher les tableaux aux contenues picturals proches
 
 *Exemple utilisant http://blockdiag.com/en/actdiag/index.html[actdiag]*
 **(Vous pouvez, bien sûr, utiliser votre outil de dessin préféré).**
