@@ -96,13 +96,13 @@ include::proposition/etat-de-l-art.adoc[Description de l’état de l’art]
 == Scénarios d’usage (PAN1)
 
 Au fur et à mesure des séances, nous avons réfléchi à différents scénarios d’utilisation. 
-[horizontal]
-1.Aspect “purement” artistique :: +
+
+1.+++<u>Aspect “purement” artistique</u>+++ : +
 * Outil artistique innovant et original. Peut être utilisé comme une aide à la composition ou comme une source d'inspiration pour l'artiste. En discutant avec certains peintres rencontrés dans le cadre des entretiens, nous avons eu la confirmation d’une certaine curiosité de leur part de tester de nouveaux outils numériques pour compléter leur créations artistiques. +
 * Mise en place d’une exposition permettant de compléter l’expérience visuelle par une expérience auditive. Très similaire, au point 3, sauf que dans ce cas l’outil ne sera pas utilisé par l'artiste lui-même, mais par l’organisateur d’une exposition. Synesthésie.IA permettra une immersion plus profonde dans l’exposition. Ainsi les visiteurs pourront avoir des sentiments plus prononcés ou percevoir des tableaux connus d’une nouvelle façon. +
-2. Aspect éducatif :: ouverture du monde artistique à un public non initié, en particulier le plus jeune public. +
+2. +++<u>Aspect éducatif</u>+++ : ouverture du monde artistique à un public non initié, en particulier le plus jeune public. +
 Dans un but éducatif, proposer une exposition ou un cycle de vidéos documentaires présentant les tableaux accompagnées de musiques correspondantes, permettra de découvrir les tableaux classiques ainsi que de se sensibiliser à l’art d’une façon ludique et immersive. +
-3. Aspect accessibilité artistique ::  accessibilité de l’expérience artistique aux personnes malvoyantes. +
+3. +++<u>Aspect accessibilité artistique</u>+++ :  accessibilité de l’expérience artistique aux personnes malvoyantes. +
 Associer une mélodie générée par une IA permettant de retranscrire le plus précisément un tableau, permettra aux personnes malvoyantes de “ressentir les tableaux” (les émotions dégagées, le style, l’époque etc..). Notre projet permettra donc d'avoir un accès au monde de la peinture à un public pour lequel l’accès est habituellement compliqué au vu de leur handicap. 
 
 <<<
