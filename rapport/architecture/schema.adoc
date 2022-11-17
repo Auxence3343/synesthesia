@@ -4,53 +4,33 @@ image::../images/diagramme_architectural.jpg[Diagramme d'architecture]
 
 ==== Description des blocs
 
-Il faut ici une description textuelle de chaque bloc, sa fonction
-détaillée. En général, un bloc correspond à un module, sauf exception.
-Il peut être adapté de faire des blocs plus petits qu’un module.
-
-Il est important ici de distinguer les bibliothèques identifiées et
-disponibles de ce que vous allez produire (coder) vous-même. Vous ne
-devez pas réinventer la roue, mais vous ne devez pas non plus avoir votre
-projet tout fait en encapsulant un programme déjà existant.
-
 ===== Site Web
 
 Notre projet repose sur un site web pour interagir avec les utilisateurs. C’est dans ce site web que les utilisateurs pourront importer leur tableau et écouter la musique associée. 
-Nous souhaitons coder le site en JavaScript et PhP. 
-Nous souhaitons proposer différentes fonctionnalités aux utilisateurs avec une interface utilisateur seulement.
-L'utilisateur pourra sélectionner différentes options 
-Nous pensons qu'il n'y aura pas besoin d'une interface administrateur. En effet, le travail sera fait en amont 
+Nous souhaitons programmer le site en utilisant un Frontend JavaScript et HTML + CSS, potentiellement via Bootstrap et un Backend en PhP + SQL. 
+Nos objectifs pour le site sont de :
+- Réaliser une où plusieurs pages présentant le projet
+- Programmer une interface pour permettre a l'utilisateur d'utiliser l'IA sur une image arbitraire
+- Programmer un jeu où l'utilisateur doit retrouver en écoutant une musique le tableau qui l'a généré parmi d'autres de façon a estimer la pertinence de notre sytème.
+
+Nous pensons qu'il n'y aura pas besoin d'une interface pour un accès administrateur. En effet, nous aurons un accès direct à la base de donnée et au serveur de calcul python.
 
 ===== Serveur Python / API interne
 
-Description textuelle du bloc 1.
+Le site web ne sera que la façade du projet et nous souhaitons programmer l'IA en python de façon à pouvoir exploiter l'écosystème qui y existe (TensorFlow, Keras,...), bien plus mature que celui d'autre langages. Un serveur python sera donc responsable de la gestion de l'intelligence artificielle et de la pipeline allant de l'image à la musique. 
+
+Pour pouvoir faire communiquer le site et l'IA, une API interne au projet sera également développée au sein du module "API"  pour le serveur python afin d'interfaçer les deux écosystèmes.
+
+Les objectifs seront donc : 
+- créer un API fonctionnelle pour accéder aux fonction du serveur
+- paramétrer un serveur capable de répondre à tout moments aux appels de l'API
+- pouvoir accéder aux fonctions de l'API à partir du site. 
 
 ===== Reconnaissance d'image + IA
 
 Le module "traitement d'image" proposé par Michel Roux permettra de développer plusieurs algorithmes en Python pour traiter et analyser le contenu pictural des tableaux de la base de données. Le contenu analysé sera la couleur et la texture du tableau.  
-on souhaiterais développer lors de ce module plusieurs algorithmes:
--un algorithme permettant d'améliorer les images de tableau de la base de donnée que l'on utilisera, en supprimant les imperfections par exemple les reflets, l'angle de la photograĥie, le mouvement du photographe.
--Un algorithme qui permettrai de de récupérer une image de la texture 3D d'un tableau 2D mis en entrée afin de pouvoir le classifier plus aisément (à partir des ombres par exemple).
--un algorithme qui prend en entrée deux photograpies de deux tableaux et qui renvoie une "distance" entre ces deux tableaux en fonction des couleurs et textures de ces tableaux, afin de rapprocher les tableaux aux contenues picturals proches
 
-*Exemple utilisant http://blockdiag.com/en/actdiag/index.html[actdiag]*
-**(Vous pouvez, bien sûr, utiliser votre outil de dessin préféré).**
-
-[actdiag, diag_activite, svg]
-....
-actdiag {
-  ecrire -> convertir -> afficher
-
-  lane user {
-     label = "User"
-     ecrire [label = "Décire les matrices"];
-     afficher  [label = "Afficher la courbe"];
-  }
-  lane converter {
-     label = "Convertisseur"
-     convertir [label = "Convertir\n en utilisant\n@@"];
-  }
-}
-....
-
-Voir la liste des outils supportés par http://asciidoctor.org/docs/asciidoctor-diagram/[asciidoctor-diagram].
+Nous souhaiterions développer lors de ce module plusieurs algorithmes que nous pourrions ensuite assembler de façon a obtenir les meilleurs résultats:
+- Un filtre permettant d'améliorer les images de tableau de la base de donnée que l'on utilisera, en supprimant des imperfections comme les reflets, l'angle de la photograĥie, le mouvement du photographe et qui redimensionne l'image vers une résolution fixée.
+- Un algorithme qui récupère une image de la texture 3D d'un tableau 2D mis en entrée afin de pouvoir le classifier plus aisément (à partir des ombres par exemple).
+- Un algorithme prenant en entrée deux photograpies de deux tableaux et qui calcule une "distance" entre ces deux tableaux en fonction de leur spectres et textures, afin de rapprocher les tableaux à des contenus picturaux proches.
