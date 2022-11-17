@@ -1,4 +1,4 @@
-=== Diagramme de séquence (optionnel)
+////=== Diagramme de séquence (optionnel)
 
 Insérer ici un ou plusieurs diagrammes de séquence ou d’activité du
 projet. Voir le cours d’introduction au Génie Logiciel.
@@ -21,3 +21,4 @@ diagramme de séquence spécifique pour ce dialogue.
 ....
 
 Voir la liste des outils supportés par http://asciidoctor.org/docs/asciidoctor-diagram/[asciidoctor-diagram].
+////
