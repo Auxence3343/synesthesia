@@ -48,7 +48,7 @@ permettrait de faire de façon générale.
 
 Ligula dapibus egestas. Donec sed velit ac lectus mattis sagittis.
 
-In hac habitasse platea dictumst. Maecenas in ligula. Duis tincidunt
+In hac habitasse platea . Maecenas in ligula. Duis tincidunt
 odio sollicitudin quam. Nullam non mauris. Phasellus lacinia, velit sit
 amet bibendum euismod, leo diam interdum ligula, eu scelerisque sem
 purus in tellus.
