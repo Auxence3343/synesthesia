@@ -25,5 +25,4 @@ build-report:
       - (cd rapport && asciidoctor-pdf  -r asciidoctor-diagram -r asciidoctor-mathematical -a mathematical-format=svg -d book -b pdf --theme pdf-theme.yml README.adoc -o Rapport-$CI_PROJECT_NAME.pdf)
    only:
       - main
-      - branchelina
 
