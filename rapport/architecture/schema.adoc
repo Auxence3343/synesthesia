@@ -1,40 +1,6 @@
 === Schéma d’architecture
 
-Insérer ici un ou plusieurs schémas d’architecture du projet. Voir le
-cours d’introduction au Génie Logiciel. N’hésitez pas à faire des
-schémas hiérarchiques, c'est-à-dire avec un bloc d’un schéma général
-raffiné dans un second schéma ; ou des schémas en plusieurs parties.
-
-*Exemple utilisant http://www.graphviz.org/Documentation.php[graphviz]*
-Voir la liste des outils supportés par http://asciidoctor.org/docs/asciidoctor-diagram/[asciidoctor-diagram].
-**(Vous pouvez, bien sûr, utiliser votre outil de dessin préféré).**
-
-[graphviz, arch-diag, svg]
-....
-digraph MonGraph {
-    graph [rankdir = LR, splines=ortho];
-
-    node[shape=record];
-    BlocIn[label="La source", height=2];
-    Hub[label="Le «dispatcheur»", height=4];
-
-    BlocOut1[label="Première sortie", height=2];
-    BlocOut2[label="Seconde  Sortie", height=2];
-
-    BlocIn -> Hub [label="Image"];
-    BlocIn -> Hub [label="Son"];
-    BlocIn -> Hub [label="Émotion"];
-
-    Hub -> BlocOut1 [label="Musique"];
-    Hub -> BlocOut1 [label="Chant"];
-    BlocOut1 -> Hub [label="commande"];
-
-
-    Hub -> BlocOut2 [label="Image"];
-    Hub -> BlocOut2 [label="commande"];
-}
-....
-
+image::../images/diagramme_architectural.jpg[Diagramme d'architecture]
 
 ==== Description des blocs
 
@@ -47,13 +13,25 @@ disponibles de ce que vous allez produire (coder) vous-même. Vous ne
 devez pas réinventer la roue, mais vous ne devez pas non plus avoir votre
 projet tout fait en encapsulant un programme déjà existant.
 
-===== NomBloc1
+===== Site Web
+
+Notre projet repose sur un site web pour interagir avec les utilisateurs. C’est dans ce site web que les utilisateurs pourront importer leur tableau et écouter la musique associée. 
+Nous souhaitons coder le site en JavaScript et PhP. 
+Nous souhaitons proposer différentes fonctionnalités aux utilisateurs avec une interface utilisateur seulement.
+L'utilisateur pourra sélectionner différentes options 
+Nous pensons qu'il n'y aura pas besoin d'une interface administrateur. En effet, le travail sera fait en amont 
+
+===== Serveur Python / API interne
 
 Description textuelle du bloc 1.
 
-===== NomBloc2
+===== Reconnaissance d'image + IA
 
-Description textuelle du bloc 1.
+Le module "traitement d'image" proposé par Michel Roux permettra de développer plusieurs algorithmes en Python pour traiter et analyser le contenu pictural des tableaux de la base de données. Le contenu analysé sera la couleur et la texture du tableau.  
+on souhaiterais développer lors de ce module plusieurs algorithmes:
+-un algorithme permettant d'améliorer les images de tableau de la base de donnée que l'on utilisera, en supprimant les imperfections par exemple les reflets, l'angle de la photograĥie, le mouvement du photographe.
+-Un algorithme qui permettrai de de récupérer une image de la texture 3D d'un tableau 2D mis en entrée afin de pouvoir le classifier plus aisément (à partir des ombres par exemple).
+-un algorithme qui prend en entrée deux photograpies de deux tableaux et qui renvoie une "distance" entre ces deux tableaux en fonction des couleurs et textures de ces tableaux, afin de rapprocher les tableaux aux contenues picturals proches
 
 *Exemple utilisant http://blockdiag.com/en/actdiag/index.html[actdiag]*
 **(Vous pouvez, bien sûr, utiliser votre outil de dessin préféré).**
