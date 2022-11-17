@@ -38,7 +38,7 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 *_Note: 15 lignes max_*
 
-Suite à une réflexion sur le lien entre les sens et l’art, nous avons cherché à faire vivre une expérience immersive à un individu, lui permettant d’avoir un nouveau point de vue sur des œuvres déjà connues. Simulant les effets d’une synesthésie, l’objectif du projet est de mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle.+
+Suite à une réflexion sur le lien entre les sens et l’art, nous avons cherché à faire vivre une expérience immersive à un individu, lui permettant d’avoir un nouveau point de vue sur des œuvres déjà connues. Simulant les effets d’une synesthésie, l’objectif du projet est de mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle. +
 Le projet Synesthes.IA se situe à l’intersection de trois domaines qui passionnent tous les membres du groupe : le numérique, le monde de l’art, la peinture en particulier et les sciences cognitives. En effet, ce projet nous a permis de nous plonger dans le monde artistique ainsi qu’explorer les différents liens entre les sens humains, leurs émotions et la perception de l’art. L’utilisation du numérique et notamment de l’intelligence artificielle dans le domaine artistique reste encore un phénomène assez rare, mais utilisé de plus en plus fréquemment de nos jours. 
 
 == English Summary (PAN1)
@@ -98,11 +98,11 @@ include::proposition/etat-de-l-art.adoc[Description de l’état de l’art]
 Au fur et à mesure des séances, nous avons réfléchi à différents scénarios d’utilisation. 
 
 *1. Aspect “purement” artistique*: +
-* Outil artistique innovant et original. Peut être utilisé comme une aide à la composition ou comme une source d'inspiration pour l'artiste. En discutant avec certains peintres rencontrés dans le cadre des entretiens, nous avons eu la confirmation d’une certaine curiosité de leur part de tester de nouveaux outils numériques pour compléter leur créations artistiques. +
-* Mise en place d’une exposition permettant de compléter l’expérience visuelle par une expérience auditive. Très similaire, au point 3, sauf que dans ce cas l’outil ne sera pas utilisé par l'artiste lui-même, mais par l’organisateur d’une exposition. Synesthésie.IA permettra une immersion plus profonde dans l’exposition. Ainsi les visiteurs pourront avoir des sentiments plus prononcés ou percevoir des tableaux connus d’une nouvelle façon. +
-*2. Aspect éducatif * : ouverture du monde artistique à un public non initié, en particulier le plus jeune public. +
+- Outil artistique innovant et original. Peut être utilisé comme une aide à la composition ou comme une source d'inspiration pour l'artiste. En discutant avec certains peintres rencontrés dans le cadre des entretiens, nous avons eu la confirmation d’une certaine curiosité de leur part de tester de nouveaux outils numériques pour compléter leur créations artistiques. +
+-  Mise en place d’une exposition permettant de compléter l’expérience visuelle par une expérience auditive. Très similaire, au point 3, sauf que dans ce cas l’outil ne sera pas utilisé par l'artiste lui-même, mais par l’organisateur d’une exposition. Synesthésie.IA permettra une immersion plus profonde dans l’exposition. Ainsi les visiteurs pourront avoir des sentiments plus prononcés ou percevoir des tableaux connus d’une nouvelle façon. +
+* 2. Aspect éducatif * : ouverture du monde artistique à un public non initié, en particulier le plus jeune public. +
 Dans un but éducatif, proposer une exposition ou un cycle de vidéos documentaires présentant les tableaux accompagnées de musiques correspondantes, permettra de découvrir les tableaux classiques ainsi que de se sensibiliser à l’art d’une façon ludique et immersive. +
-*3. Aspect accessibilité artistique* :  accessibilité de l’expérience artistique aux personnes malvoyantes. +
+* 3. Aspect accessibilité artistique * :  accessibilité de l’expérience artistique aux personnes malvoyantes. +
 Associer une mélodie générée par une IA permettant de retranscrire le plus précisément un tableau, permettra aux personnes malvoyantes de “ressentir les tableaux” (les émotions dégagées, le style, l’époque etc..). Notre projet permettra donc d'avoir un accès au monde de la peinture à un public pour lequel l’accès est habituellement compliqué au vu de leur handicap. 
 
 <<<
