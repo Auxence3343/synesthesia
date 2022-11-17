@@ -2,10 +2,6 @@
 
 image::../images/diagramme_architectural.jpg[Diagramme d'architecture]
 
-
-
-
-
 ==== Description des blocs
 
 Il faut ici une description textuelle de chaque bloc, sa fonction
