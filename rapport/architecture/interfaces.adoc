@@ -1,23 +1,23 @@
 === Description des interfaces (PAN1 / PAN2)
+//
+//Pour le PAN1, il faut identifier et décrire sommairement toutes les
+//interfaces entre modules.
 
-Pour le PAN1, il faut identifier et décrire sommairement toutes les
-interfaces entre modules.
+//Pour le PAN2, il faut une description complète des interfaces.
 
-Pour le PAN2, il faut une description complète des interfaces.
+//Il faut ici une description textuelle de chaque interface, c'est-à-dire chaque
+//échange entre deux blocs.
+//Si c’est une interface entre deux blocs informatiques, c’est une interface
+//Java.
+//S’il y a des échanges de données complexes, il faut en décrire le format avec
+//précision.
+//Si c’est une interface entre deux blocs électroniques, c’est une description
+//des signaux électroniques ou protocoles utilisés.
 
-Il faut ici une description textuelle de chaque interface, c'est-à-dire chaque
-échange entre deux blocs.
-Si c’est une interface entre deux blocs informatiques, c’est une interface
-Java.
-S’il y a des échanges de données complexes, il faut en décrire le format avec
-précision.
-Si c’est une interface entre deux blocs électroniques, c’est une description
-des signaux électroniques ou protocoles utilisés.
+==== Interface Site Web / Serveur Python
 
-==== InterfaceBloc1-2
+Une API interne au serveur python permet la communication entre le site et le serveur, elle assure le transfert des fichiers image et vidéos et fait la traduction entre le php et le python.
 
-Description textuelle d’interface
+==== Interface IA / service de génération de musique
 
-==== InterfaceBloc2-4
-
-Description textuelle d’interface
+L'utilisation de l'API d'un service de génération de musique est prévue au sein du code du serveur python de façon à générer les musiques a partir des paramètres déterminés par notre IA et de transmettre le fichier son a l'API serveur / site.
