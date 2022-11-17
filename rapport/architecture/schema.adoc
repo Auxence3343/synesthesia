@@ -15,7 +15,11 @@ projet tout fait en encapsulant un programme déjà existant.
 
 ===== Site Web
 
-Description textuelle du bloc 1.
+Notre projet repose sur un site web pour interagir avec les utilisateurs. C’est dans ce site web que les utilisateurs pourront importer leur tableau et écouter la musique associée. 
+Nous souhaitons coder le site en JavaScript et PhP. 
+Nous souhaitons proposer différentes fonctionnalités aux utilisateurs avec une interface utilisateur seulement.
+L'utilisateur pourra sélectionner différentes options 
+Nous pensons qu'il n'y aura pas besoin d'une interface administrateur. En effet, le travail sera fait en amont 
 
 ===== Serveur Python / API interne
 
