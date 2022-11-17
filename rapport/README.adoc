@@ -38,8 +38,8 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 *_Note: 15 lignes max_*
 
-Suite à une réflexion sur le lien entre les sens et l’art, nous avons cherché à faire vivre une expérience immersive à un individu, lui permettant d’avoir un nouveau point de vue sur des œuvres déjà connues. Simulant les effets d’une synesthésie, l’objectif du projet est de mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle. 
-Le projet Synesthes.IA se situe à l’intersection de trois domaines qui passionnent tous les membres du groupe : le numérique, le monde de l’art, la peinture en particulier et les sciences cognitives. En effet, ce projet nous a permis de nous plonger dans le monde artistique ainsi qu’explorer les différents liens entre les sens humains, leurs émotions et la perception de l’art. L’utilisation du numérique et notamment de l’intelligence artificielle dans le domaine artistique reste encore un phénomène assez rare, mais utilisé de plus en plus fréquemment de nos jours. Ainsi, Synesthes.IA permettra aux utilisateurs de redécouvrir des œuvres connues en vivant une expérience artistique complète et originale. 
+Suite à une réflexion sur le lien entre les sens et l’art, nous avons cherché à faire vivre une expérience immersive à un individu, lui permettant d’avoir un nouveau point de vue sur des œuvres déjà connues. Simulant les effets d’une synesthésie, l’objectif du projet est de mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle. +
+Le projet Synesthes.IA se situe à l’intersection de trois domaines qui passionnent tous les membres du groupe : le numérique, le monde de l’art, la peinture en particulier et les sciences cognitives. En effet, ce projet nous a permis de nous plonger dans le monde artistique ainsi qu’explorer les différents liens entre les sens humains, leurs émotions et la perception de l’art. L’utilisation du numérique et notamment de l’intelligence artificielle dans le domaine artistique reste encore un phénomène assez rare, mais utilisé de plus en plus fréquemment de nos jours. 
 
 == English Summary (PAN1)
 
@@ -54,22 +54,22 @@ purus in tellus.
 
 <<<
 
-*Notes concenant le rapport*
+//*Notes concenant le rapport*
 
-Les différentes pages du document sont rédigées en utilisant le langage
+//Les différentes pages du document sont rédigées en utilisant le langage
 AsciiDoc. Le squelette de rapport contient des exemples avec entre autres:
 
-* des images,
-* des liens,
-* des équations.
+//* des images,
+//* des liens,
+//* des équations.
 
-La structure du rapport (parties, sections et la relation avec les
-différents fichiers) se trouve dans le fichier courant.
+//La structure du rapport (parties, sections et la relation avec les
+//différents fichiers) se trouve dans le fichier courant.
 
 //**Prenez le temps** de supprimer le texte de remplissage et les sections non
-utilisées pour l'instant. Vous pouvez par exemple commenter ces parties non
-utilisées pour qu'elles n'apparaissent pas dans le document final. En Asciidoc,
-il suffit de les précéder de deux slashs (`//`).
+//utilisées pour l'instant. Vous pouvez par exemple commenter ces parties non
+//utilisées pour qu'elles n'apparaissent pas dans le document final. En Asciidoc,
+//il suffit de les précéder de deux slashs (`//`).
 
 <<<
 toc::[]
@@ -80,37 +80,30 @@ toc::[]
 
 == Étude d’antériorité et justification de la proposition (PAN1)
 
-Synesthes.IA est un outil permettant la synesthésie (association de sensations provenant de différents domaines) entre le visuel et l’auditif sur le cas particulier des œuvres artistiques. Concrètement, le projet consiste à mettre en place un Site Web permettant la traduction des peintures en des musiques à l’aide de différents outils d’intelligence artificielle. 
+Synesthes.IA est un outil permettant la synesthésie (association de sensations provenant de différents domaines) entre le visuel et l’auditif sur le cas particulier des œuvres artistiques. Concrètement, le projet consiste à mettre en place un *Site Web* permettant la traduction des peintures en des musiques à l’aide de différents *outils d’intelligence artificielle*. + 
 L’intelligence artificielle constitue en effet le cœur du projet et se concrétise en deux axes : la génération de musiques et la classification d’images. Cependant, en pratique nous allons nous concentrer principalement sur la partie classification des tableaux et surtout sur le lien entre cette classification et la génération de musique. 
-En effet, en ce qui concerne la *génération des musiques, nous allons utiliser un site web déjà existant dont le fonctionnement est basé sur l’utilisation de l'intelligence artificielle. Dans l’usage classique de ce site, les utilisateurs sélectionnent manuellement certains critères permettant la génération de musiques (par exemple les émotions, le rythme, le style etc). Dans les parties état des lieux et bibliographie nous présenterons plus en détails quelques sites avec lesquels nous pouvons potentiellement travailler. 
-L’objectif de notre projet est d’automatiser cette sélection de critères de génération de musique à l’aide d’outils d'intelligence artificielle. Plus précisément, en procédant au traitement et analyse d’image nous allons pouvoir classifier les tableaux pour par la suite établir le lien avec les critères de génération de musique. 
-Synesthes.IA est en effet un projet très ambitieux présentant de nombreux défis auxquels nous avons déjà fait face et que nous allons continuer à relever tout le long du projet. Notamment, déterminer les liens entre les critères de sélection de génération de musiques et les différentes informations qu’on peut extraire des tableaux n’est pas du tout trivial et constitue l’un des premiers défis du projet. La complexité de cette tâche est également liée au choix des méthodes de classification des tableaux. Pendant cette première étape de réalisation du projet nous avons pu faire des recherches bibliographiques et trouver quelques publications scientifiques sur le sujet ainsi que discuter avec des experts qui vont nous encadrer par la suite pour avoir une première idée sur les méthodes à utiliser et leur faisabilité technique. Cependant, le choix définitif est un objectif intermédiaire et se fera plus loin dans le projet, après avoir testé quelques méthodes différentes. 
-La réussite de cette étape est cruciale au bon fonctionnement final. La classification des images se fera donc en deux étapes (qui correspondent à deux modules sélectionnés) : traitement de l’image afin de déterminer les couleurs et les textures, puis l’utilisation des outils du machine learning pour classifier les tableaux selon les époques, styles, émotions, identification d’objets… . C’est également pour cela que l’utilisation d’un outil déjà existant pour le côté musical constitue un énorme avantage. 
-En ce qui concerne le rendu final, nous avons déterminé plusieurs objectifs. Évidemment, l’objectif principal est la création d’un Site Web utilisable par un client. Son rôle principal sera de renvoyer une musique à partir d’un tableau dans un premier temps présent dans notre base de donnée, puis d’un tableau quelconque fourni par l’utilisateur. Nous avons également prévu d’intégrer des outils permettant d’évaluer la satisfaction des utilisateurs à base d’un questionnaire dans un premier temps, puis éventuellement un petit jeu. Les résultats de ces enquêtes pourront éventuellement être utilisés à un afin de permettre l’amélioration de la génération des musiques, cependant ce n’est pas la priorité. 
-Le deuxième objectif, qui a été l’une des premières motivations de création de ce projet, est la mise en place d’une exposition immersive en utilisant notre outil. L’idée serait de projeter des œuvres d’art ou d'afficher des tableaux d’artistes accompagnés des musiques générées par Synesthes.IA . 
+En effet, en ce qui concerne la *génération des musiques*, nous allons utiliser un site web déjà existant dont le fonctionnement est basé sur l’utilisation de l'intelligence artificielle. Dans l’usage classique de ce site, les utilisateurs sélectionnent manuellement certains critères permettant la génération de musiques (par exemple les émotions, le rythme, le style etc). Dans les parties état des lieux et bibliographie nous présenterons plus en détails quelques sites avec lesquels nous pouvons potentiellement travailler. +
+L’objectif de notre projet est d’automatiser cette sélection de critères de génération de musique à l’aide d’outils d'intelligence artificielle. Plus précisément, en procédant au traitement et analyse d’image nous allons pouvoir classifier les tableaux pour par la suite établir le lien avec les critères de génération de musique. +
+Synesthes.IA est en effet un projet très ambitieux présentant de nombreux *défis* auxquels nous avons déjà fait face et que nous allons continuer à relever tout le long du projet. Notamment, déterminer les liens entre les critères de sélection de génération de musiques et les différentes informations qu’on peut extraire des tableaux n’est pas du tout trivial et constitue l’un des premiers défis du projet. La complexité de cette tâche est également liée au choix des méthodes de classification des tableaux. Pendant cette première étape de réalisation du projet nous avons pu faire des recherches bibliographiques et trouver quelques publications scientifiques sur le sujet ainsi que discuter avec des experts qui vont nous encadrer par la suite pour avoir une première idée sur les méthodes à utiliser et leur faisabilité technique. Cependant, le choix définitif est un objectif intermédiaire et se fera plus loin dans le projet, après avoir testé quelques méthodes différentes. +
+La réussite de cette étape est cruciale au bon fonctionnement final. La classification des images se fera donc en deux étapes (qui correspondent à deux modules sélectionnés) : traitement de l’image afin de déterminer les couleurs et les textures, puis l’utilisation des outils du machine learning pour classifier les tableaux selon les époques, styles, émotions, identification d’objets… . C’est également pour cela que l’utilisation d’un outil déjà existant pour le côté musical constitue un énorme avantage. +
+En ce qui concerne le rendu final, nous avons déterminé plusieurs objectifs. Évidemment, l’objectif principal est la création d’un *Site Web* utilisable par un client. Son rôle principal sera de renvoyer une musique à partir d’un tableau dans un premier temps présent dans notre base de donnée, puis d’un tableau quelconque fourni par l’utilisateur. Nous avons également prévu d’intégrer des outils permettant d’évaluer la satisfaction des utilisateurs à base d’un questionnaire dans un premier temps, puis éventuellement un petit jeu. Les résultats de ces enquêtes pourront éventuellement être utilisés à un afin de permettre l’amélioration de la génération des musiques, cependant ce n’est pas la priorité. 
+Le deuxième objectif, qui a été l’une des premières motivations de création de ce projet, est la mise en place d’une *exposition immersive* en utilisant notre outil. L’idée serait de projeter des œuvres d’art ou d'afficher des tableaux d’artistes accompagnés des musiques générées par Synesthes.IA . 
 
 
 
 include::proposition/etat-de-l-art.adoc[Description de l’état de l’art]
 
-Au fur et à mesure des séances, nous avons réfléchi à différents scénarios d’utilisation. 
-
-Aspect “purement” artistique : 
-⇒ Outil artistique innovant et original. Peut être utilisé comme une aide à la composition ou comme une source d'inspiration pour l'artiste. En discutant avec certains peintres rencontrés dans le cadre des entretiens, nous avons eu la confirmation d’une certaine curiosité de leur part de tester de nouveaux outils numériques pour compléter leur créations artistiques. 
-⇒ Mise en place d’une exposition permettant de compléter l’expérience visuelle par une expérience auditive. Très similaire, au point 3, sauf que dans ce cas l’outil ne sera pas utilisé par l'artiste lui-même, mais par l’organisateur d’une exposition. Synesthésie.IA permettra une immersion plus profonde dans l’exposition. Ainsi les visiteurs pourront avoir des sentiments plus prononcés ou percevoir des tableaux connus d’une nouvelle façon. 
-
-Aspect éducatif: ouverture du monde artistique à un public non initié, en particulier le plus jeune public. 
-
-Dans un but éducatif, proposer une exposition ou un cycle de vidéos documentaires présentant les tableaux accompagnées de musiques correspondantes, permettra de découvrir les tableaux classiques ainsi que de se sensibiliser à l’art d’une façon ludique et immersive. 
-
-Aspect accessibilité artistique :  accessibilité de l’expérience artistique aux personnes malvoyantes.
-
-Associer une mélodie générée par une IA permettant de retranscrire le plus précisément un tableau, permettra aux personnes malvoyantes de “ressentir les tableaux” (les émotions dégagées, le style, l’époque etc..). Notre projet permettra donc d'avoir un accès au monde de la peinture à un public pour lequel l’accès est habituellement compliqué au vu de leur handicap. 
-
-
 == Scénarios d’usage (PAN1)
 
-include::scenario/scenario.adoc[Scénarios d’usage]
+Au fur et à mesure des séances, nous avons réfléchi à différents scénarios d’utilisation. 
+[horizontal]
+1.Aspect “purement” artistique :: +
+* Outil artistique innovant et original. Peut être utilisé comme une aide à la composition ou comme une source d'inspiration pour l'artiste. En discutant avec certains peintres rencontrés dans le cadre des entretiens, nous avons eu la confirmation d’une certaine curiosité de leur part de tester de nouveaux outils numériques pour compléter leur créations artistiques. +
+* Mise en place d’une exposition permettant de compléter l’expérience visuelle par une expérience auditive. Très similaire, au point 3, sauf que dans ce cas l’outil ne sera pas utilisé par l'artiste lui-même, mais par l’organisateur d’une exposition. Synesthésie.IA permettra une immersion plus profonde dans l’exposition. Ainsi les visiteurs pourront avoir des sentiments plus prononcés ou percevoir des tableaux connus d’une nouvelle façon. +
+2. Aspect éducatif :: ouverture du monde artistique à un public non initié, en particulier le plus jeune public. +
+Dans un but éducatif, proposer une exposition ou un cycle de vidéos documentaires présentant les tableaux accompagnées de musiques correspondantes, permettra de découvrir les tableaux classiques ainsi que de se sensibiliser à l’art d’une façon ludique et immersive. +
+3. Aspect accessibilité artistique ::  accessibilité de l’expérience artistique aux personnes malvoyantes. +
+Associer une mélodie générée par une IA permettant de retranscrire le plus précisément un tableau, permettra aux personnes malvoyantes de “ressentir les tableaux” (les émotions dégagées, le style, l’époque etc..). Notre projet permettra donc d'avoir un accès au monde de la peinture à un public pour lequel l’accès est habituellement compliqué au vu de leur handicap. 
 
 <<<
 
