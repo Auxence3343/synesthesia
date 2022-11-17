@@ -5,6 +5,7 @@ répertoires et fichiers dont vous aurez besoin pour votre projet.
 
 # Important, le rapport d'avancement
 
+ceci est un test
 Le répertoire `rapport` contient un squelette pour votre rapporte d'avancement.
 Ce répertoire **ne doit pas être renommé** ni le fichier `README.adoc` qu'il contient.
 Le fichier `README.adoc` est le point d'entrée du rapport.
