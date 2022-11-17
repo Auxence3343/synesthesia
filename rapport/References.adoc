@@ -1,5 +1,5 @@
 
-*_Note : Liste des références exploitées. Une référence complète
+////*_Note : Liste des références exploitées. Une référence complète
 donne titre, auteur(s), date, journal, revue, source de publication,
 titre de conférence, numéro, pages. Une webographie est aussi
 envisageable : titre, auteur, date, page web_*
@@ -12,3 +12,14 @@ http://sites.google.com/site/parthochoudhury/aMToC_CShannon.pdf
 https://pact.wp.mines-telecom.fr/vitrine/
 * [[TOTO]]XXX : *M. S. Otor*, _Best paper ever_, Livre de la jungle,
 Volume 2, pages 33-34, 1777
+
+IL FAUT METTRE LES CITATIONS AU BON FORMAT, IDEM POUR L'ETAT DE L'ART !!
+////
+
+[0] Article Wikipédia sur la Synesthésie, rubrique Synesthètes célèbres
+ https://fr.wikipedia.org/wiki/Synesth%C3%A9sie
+[1] Exposition Kandinsky au centre Pompidou, Serge Lasvignes, Google, Feb 10, 2021
+https://blog.google/outreach-initiatives/arts-culture/discover-artist-who-could-hear-colors/amp/
+[2]  Exposition Kandinsky au centre Pompidou,  par Donnia Ghezlane-Lala le 15 Février 2021
+https://www.google.com/amp/s/www.konbini.com/amp/arts/le-centre-pompidou-vous-permet-decouter-les-peintures-et-couleurs-de-kandinsky/
+[3]  Play a Kandinsky, Google
