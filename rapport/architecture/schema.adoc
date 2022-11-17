@@ -38,8 +38,8 @@ Nous souhaiterions développer lors de ce module plusieurs algorithmes que nous 
 - Un algorithme prenant en entrée deux photograpies de deux tableaux et qui calcule une "distance" entre ces deux tableaux en fonction de leur spectres et textures, afin de rapprocher les tableaux à des contenus picturaux proches.+
 
 Le deuxième module sera encadré par Sthéphane Lathulière. L'objectif de ce module est la classification de tableaux selon différents critères et en utilisant différents modèles. Les premiers objectifs sont: +
-- établir une base de donnée de tableaux sur laquelle nous pourrons effectuer l'apprentissage et les premiers test (environ 300 tableaux)+
-- établir les critères de classification nécessaires (époque,style, émotions,identification d'objets présents dans les tableaux..)+
+- établir une base de donnée de tableaux sur laquelle nous pourrons effectuer l'apprentissage et les premiers test (environ 300 tableaux) +
+- établir les critères de classification nécessaires (époque,style, émotions,identification d'objets présents dans les tableaux..) +
 - tester quelques modèles différents afin d'établir le plus fonctionnel +
 
 
