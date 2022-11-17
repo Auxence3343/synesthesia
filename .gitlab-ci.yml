@@ -18,7 +18,7 @@ build-report:
       # Log Asciidoctor Version
       -  asciidoctor --version
       # generate html version
-      - (cd rapport && asciidoctor  -r asciidoctor-diagram -d book -b html5  README.adoc -o Rapport-$CI_PROJECT_NAME.html)
+      - (cd rUpdate .gitlab-ci.yml fileapport && asciidoctor  -r asciidoctor-diagram -d book -b html5  README.adoc -o Rapport-$CI_PROJECT_NAME.html)
       # Log Asciidoctor-PDF Version
       -  asciidoctor-pdf --version
       # generate pdf version
