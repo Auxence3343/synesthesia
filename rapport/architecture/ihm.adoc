@@ -1,5 +1,5 @@
 === Interface utilisateur graphique
-
+////
 Il peut y avoir une ou plusieurs interfaces utilisateur (UI en anglais),
 ou interface graphique, ou interface homme machine (IHM) : une interface
 sur ordinateur et/ou une interface sur mobile ou tablette (Android),
@@ -11,3 +11,10 @@ dessins au crayon, photographiés ou scannés, car ce sont les meilleurs
 supports de discussion : on appelle souvent ces dessins un
 « storyboard ». Une description textuelle fait le lien entre tous les
 éléments de l’IHM (ou des IHMs).
+////
+
+image::../images/imagepremiereetape.png[image première étape,600,600]
+image::../images/imagedeuxiemeetape.png[image deuxième étape,600,600]
+image::../images/imagetroisiemeetape.png[image troisième étape,600,600]
+image::../images/imagequatriemeetape.png[image quatrième étape,600,600]
+image::../images/imagejeu.png[image 2bis étape,600,600]
