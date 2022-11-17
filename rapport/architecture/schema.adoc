@@ -10,7 +10,7 @@ Notre projet repose sur un site web pour interagir avec les utilisateurs. C’es
 Nous souhaitons programmer le site en utilisant un Frontend JavaScript et HTML + CSS, potentiellement via Bootstrap et un Backend en PhP + SQL. 
 Nos objectifs pour le site sont de :
 - Réaliser une où plusieurs pages présentant le projet +
-- Programmer une interface pour permettre a l'utilisateur d'utiliser l'IA sur une image arbitraire +
+- Programmer une interface pour permettre a l'utilisateur d'utiliser l'IA sur une image arbitraire+
 - Programmer un jeu où l'utilisateur doit retrouver en écoutant une musique le tableau qui l'a généré parmi d'autres de façon a estimer la pertinence de notre sytème. +
 
 Nous pensons qu'il n'y aura pas besoin d'une interface pour un accès administrateur. En effet, nous aurons un accès direct à la base de donnée et au serveur de calcul python.
