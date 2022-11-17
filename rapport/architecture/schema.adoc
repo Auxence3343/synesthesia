@@ -9,7 +9,7 @@ raffiné dans un second schéma ; ou des schémas en plusieurs parties.
 Voir la liste des outils supportés par http://asciidoctor.org/docs/asciidoctor-diagram/[asciidoctor-diagram].
 **(Vous pouvez, bien sûr, utiliser votre outil de dessin préféré).**
 
-mage::../images/diagramme_architectural.jpg[Diagramme d'architecture]
+image::../images/diagramme_architectural.jpg[Diagramme d'architecture]
 
 
 
