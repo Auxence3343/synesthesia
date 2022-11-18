@@ -8,14 +8,16 @@ page:
 title-page:
   background-image: image:images/logoavecarche.svg[]
   logo:
-    image: image:images/logolina.png[]
+    image: image:images/logolina.png[logoo,300,300]
     top: 0%
   title:
     font-size: 32
     font-style: bold
-    font-color: #000000
+    font-color: #1E90FF
   sub-title:
     font-size: 24
+    font-color: #87CEEB
   authors:
     font-size: 22
+    font-color: #87CEEB
 

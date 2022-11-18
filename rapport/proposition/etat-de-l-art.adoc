@@ -8,14 +8,14 @@ ressemblant à votre projet et les différences éventuelles. Illustrez
 avec des images si besoin. Utilisez des renvois vers votre
 bibliographie : « comme démontré dans [2], … »
 ////
-La synesthésie a toujours entretenu un rapport étroit avec l’art. Certains artistes synesthètes [0], dont Kandinsky [1][2], usaient des possibilités que leur permettait la synesthésie dans leur création artistique. De nombreuses expositions montraient ce que l’artiste pouvait entendre en peignant [2][3]. Ainsi, les spectateurs pouvaient « ressentir » les tableaux avec plus de sens ce qui constituait une expérience synethétique à petite échelle. Or, dans ces expositions, la musique créée pour accompagner les tableaux l’était par des musiciens humains [1][2][3] , ce qui pose comme limite la subjectivité de l’interprétation des œuvres du peintre par les musiciens, et la difficulté de produire la musique pouRefShannon : C. E. SHANNON, A Mathematical Theory of Communication, Reprinted with corrections from The Bell System Technical Journal, pages 379–423, 623–656, Vol. 27, 1948, http://sites.google.com/site/parthochoudhury/aMToC_CShannon.pdf
-r chaque peinture en un temps raisonnable.
+La synesthésie a toujours entretenu un rapport étroit avec l’art. Certains artistes synesthètes [0], dont Kandinsky [1][2], usaient des possibilités que leur permettait la synesthésie dans leur création artistique. De nombreuses expositions montraient ce que l’artiste pouvait entendre en peignant [2][3]. Ainsi, les spectateurs pouvaient « ressentir » les tableaux avec plus de sens ce qui constituait une expérience synethétique à petite échelle. Or, dans ces expositions, la musique créée pour accompagner les tableaux l’était par des musiciens humains [1][2][3] , ce qui pose comme limite la subjectivité de l’interprétation des œuvres du peintre par les musiciens, et la difficulté de produire la musique pour chaque peinture en un temps raisonnable.
 
 Pour automatiser ce processus, il est nécessaire de déterminer ce qui constitue les liens entre musique et peinture. Ainsi, on peut prendre comme premier critère les émotions ressenties à la lecture d’une peinture. Pour cela on peut se baser sur une analyse des couleurs de la peinture et les associer à des émotions spécifiques [4]. Ainsi, on utilise ce critère dans le choix de la musique. Cette voie a été explorée dans [5] : les auteurs de l’étude ont réalisé une application mobile qui décomposait une peinure en émotions ressenties à l’aide d’une analyse de couleurs, et associait ces émotions à des musiques qui sont choisies et classées à la main. La divergence avec notre projet réside dans le but de l’étude : les chercheurs travaillaient à proposer une musique pour accompagner la lecture d’un tableau, là où le nôtre est de reproduire un ressenti synesthésique du tableau, donc reproduire une identité musicale propre du tableau.
 
 Une autre possibilité est d’entraîner un reseau de neurones sur une base de tableaux classée par style, époque et émotions ressenties [6][7][8] comme ça a été fait dans [12]. Cela peut être fait par un apprentissage supervisé ou non supervisé [13]. Ces critères seront ensuite traduits en critères musicaux [5] (comme le style, le « mood », le rythme etc.) qui pourront être utilisés dans la création de la musique par une IA tierse [9][10][11].
 
 
+////
 ==== Exemples de citations
 
 Les références bibliographiques sont regroupées dans le fichier `References.adoc`
@@ -26,4 +26,7 @@ On peut citer comme exemple l'article de Claude E. Shannon sur la
 théorie de la communication <<RefShannon>>
 ou, bien évidement, la vitrine des projets PACT <<VitrinePACT>>.
 
+
 Voir <<TOTO,la référence>> très intéressante elle aussi.
+
+////
