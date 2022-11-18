@@ -6,7 +6,7 @@ page:
   size: A4
   margin: 2.5cm
 title-page:
-  background-image: image:images/logoauxence.png[]
+  background-image: image:images/logoavecarche.svg[]
   logo:
     image: image:images/logolina.png[]
     top: 0%
