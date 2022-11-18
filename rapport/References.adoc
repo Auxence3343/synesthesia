@@ -25,7 +25,7 @@ https://blog.google/outreach-initiatives/arts-culture/discover-artist-who-could-
 https://www.google.com/amp/s/www.konbini.com/amp/arts/le-centre-pompidou-vous-permet-decouter-les-peintures-et-couleurs-de-kandinsky/
 [3]  Play a Kandinsky, Google https://artsandculture.google.com/experiment/sgF5ivv105ukhA
 
-Etudes scientifiques :
+==== Etudes scientifiques :
 
 [5] System for matching paintings with music based on emotions, Taemin Lee, Hyunki Lim, Dae-Won Kim, Sunkyu Hwang, Kyunghyun Yoon
 School of Computer Science and Engineering, Chung-Ang University
@@ -43,7 +43,7 @@ https://www.sciencedirect.com/science/article/pii/S1296207417301474
 Sang-Geol Lee & Eui-Young Cha
 https://link.springer.com/article/10.1186/s13673-016-0063-4
 
-Base de données (peintures) :
+==== Base de données (peintures) :
 
 [7] Base de données artemis
 https://www.artemisdataset.org/
@@ -52,7 +52,7 @@ http://saifmohammad.com/WebPages/wikiartemotions.html
 [8] Base de données kaggle
 https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time
 
-Intelligence artificielle (musique) :
+==== Intelligence artificielle (musique) :
 
 [9] https://www.aiva.ai/
 [10] https://www.ampermusic.com/
