@@ -6,9 +6,9 @@ page:
   size: A4
   margin: 2.5cm
 title-page:
-  background-image: image:images/pact.svg[]
+  background-image: image:images/logoauxence.png[]
   logo:
-    image: image:images/pact.svg[]
+    image: image:images/logolina.png[]
     top: 0%
   title:
     font-size: 32
