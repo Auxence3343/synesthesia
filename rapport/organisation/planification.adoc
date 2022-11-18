@@ -19,6 +19,8 @@ Vous pouvez aussi vous aider de ces tableaux pour:
 
 Pour PAN1, remplissez dans ce tableau les dates prévues. Vous mettrez à jour les dates finales en cours d'année.
 
+Planning objectifs modules 
+
 [cols=",^,,",options="header",]
 |====
 |Tâche | Responsable(s) | Quand Prévisionnel | Quand effectif
