@@ -45,24 +45,26 @@ Le projet Synesthes.IA se situe à l’intersection de trois domaines qui passio
 After reflecting on the link between the senses and art, we sought to give an immersive experience to an individual, allowing him to have a new point of view on already known pieces of art. Simulating the effects of synaesthesia, the objective of the project is to set up a website allowing the translation of paintings into music using different artificial intelligence tools. +
 The Synesthes.IA project is located at the intersection of three fields that fascinate all members of the group: digital, the art world, painting in particular and cognitive science. Indeed, this project allowed us to dive deeper into the artistic world as well as explore different links between human senses, their emotions and their perception of art. The use of digital technology, particularly artificial intelligence, in the artistic field is still a fairly rare phenomenon, but used more and more frequently nowadays. Thus, Synesthes.IA will allow users to rediscover known painting by living a complete and original artistic experience.
 
+////
 <<<
 
-//*Notes concenant le rapport*
+*Notes concenant le rapport*
 
-//Les différentes pages du document sont rédigées en utilisant le langage
+Les différentes pages du document sont rédigées en utilisant le langage
 AsciiDoc. Le squelette de rapport contient des exemples avec entre autres:
 
-//* des images,
-//* des liens,
-//* des équations.
+* des images,
+* des liens,
+* des équations.
 
-//La structure du rapport (parties, sections et la relation avec les
-//différents fichiers) se trouve dans le fichier courant.
+La structure du rapport (parties, sections et la relation avec les
+différents fichiers) se trouve dans le fichier courant.
 
-//**Prenez le temps** de supprimer le texte de remplissage et les sections non
-//utilisées pour l'instant. Vous pouvez par exemple commenter ces parties non
-//utilisées pour qu'elles n'apparaissent pas dans le document final. En Asciidoc,
-//il suffit de les précéder de deux slashs (`//`).
+**Prenez le temps** de supprimer le texte de remplissage et les sections non
+utilisées pour l'instant. Vous pouvez par exemple commenter ces parties non
+utilisées pour qu'elles n'apparaissent pas dans le document final. En Asciidoc,
+il suffit de les précéder de deux slashs (`//`).
+////
 
 <<<
 toc::[]
