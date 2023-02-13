@@ -6,16 +6,24 @@ page:
   size: A4
   margin: 2.5cm
 title-page:
+<<<<<<< HEAD
   background-image: image:images/imagejeu.png[]
   logo:
     image: image:images/imagepremiereetape.png[]
+=======
+  background-image: image:images/logoavecarche.svg[]
+  logo:
+    image: image:images/logolina.png[logoo,300,300]
+>>>>>>> main
     top: 0%
   title:
     font-size: 32
     font-style: bold
-    font-color: #000000
+    font-color: #1E90FF
   sub-title:
     font-size: 24
+    font-color: #FF69B4
   authors:
     font-size: 22
+    font-color: #FFA500
 

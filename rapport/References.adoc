@@ -1,4 +1,5 @@
 
+////
 *_Note : Liste des références exploitées. Une référence complète
 donne titre, auteur(s), date, journal, revue, source de publication,
 titre de conférence, numéro, pages. Une webographie est aussi
@@ -12,3 +13,46 @@ http://sites.google.com/site/parthochoudhury/aMToC_CShannon.pdf
 https://pact.wp.mines-telecom.fr/vitrine/
 * [[TOTO]]XXX : *M. S. Otor*, _Best paper ever_, Livre de la jungle,
 Volume 2, pages 33-34, 1777
+
+IL FAUT METTRE LES CITATIONS AU BON FORMAT, IDEM POUR L'ETAT DE L'ART !!
+////
+
+[0] Article Wikipédia sur la Synesthésie, rubrique Synesthètes célèbres
+ https://fr.wikipedia.org/wiki/Synesth%C3%A9sie
+[1] Exposition Kandinsky au centre Pompidou, Serge Lasvignes, Google, Feb 10, 2021
+https://blog.google/outreach-initiatives/arts-culture/discover-artist-who-could-hear-colors/amp/
+[2]  Exposition Kandinsky au centre Pompidou,  par Donnia Ghezlane-Lala le 15 Février 2021
+https://www.google.com/amp/s/www.konbini.com/amp/arts/le-centre-pompidou-vous-permet-decouter-les-peintures-et-couleurs-de-kandinsky/
+[3]  Play a Kandinsky, Google https://artsandculture.google.com/experiment/sgF5ivv105ukhA
+
+==== Etudes scientifiques :
+
+[5] System for matching paintings with music based on emotions, Taemin Lee, Hyunki Lim, Dae-Won Kim, Sunkyu Hwang, Kyunghyun Yoon
+School of Computer Science and Engineering, Chung-Ang University
+https://dl.acm.org/doi/10.1145/3005358.3005366
+[4]A method for extracting emotion using colors comprise the painting image
+Dongwann Kang Hyounoh Shim Kyunghyun Yoon
+ https://core.ac.uk/download/pdf/153368581.pdf
+[12] Deep learning approaches to pattern extraction and recognition in paintings and drawings: an overview
+Giovanna Castellano, Gennaro Vessio 02 April 2021
+https://link.springer.com/article/10.1007/s00521-021-05893-z
+[13] Predicting and grouping digitized paintings by style using unsupervised feature learning
+Eren Gultepe, Thomas Edward Conturo, MasoudMakrehchi
+https://www.sciencedirect.com/science/article/pii/S1296207417301474
+[14] Style classification and visualization of art painting’s genre using self-organizing maps
+Sang-Geol Lee & Eui-Young Cha
+https://link.springer.com/article/10.1186/s13673-016-0063-4
+
+==== Base de données (peintures) :
+
+[7] Base de données artemis
+https://www.artemisdataset.org/
+[6] Base de données Wikiartemotions
+http://saifmohammad.com/WebPages/wikiartemotions.html
+[8] Base de données kaggle
+https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time
+
+==== Intelligence artificielle (musique) :
+
+[9] https://www.aiva.ai/
+[10] https://www.ampermusic.com/

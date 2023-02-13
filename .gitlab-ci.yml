@@ -18,11 +18,11 @@ build-report:
       # Log Asciidoctor Version
       -  asciidoctor --version
       # generate html version
-      - (cd rUpdate .gitlab-ci.yml fileapport && asciidoctor  -r asciidoctor-diagram -d book -b html5  README.adoc -o Rapport-$CI_PROJECT_NAME.html)
+      - (cd rapport && asciidoctor  -r asciidoctor-diagram -d book -b html5  README.adoc -o Rapport-$CI_PROJECT_NAME.html)
       # Log Asciidoctor-PDF Version
       -  asciidoctor-pdf --version
       # generate pdf version
       - (cd rapport && asciidoctor-pdf  -r asciidoctor-diagram -r asciidoctor-mathematical -a mathematical-format=svg -d book -b pdf --theme pdf-theme.yml README.adoc -o Rapport-$CI_PROJECT_NAME.pdf)
    only:
       - main
-      - branchelina
+
