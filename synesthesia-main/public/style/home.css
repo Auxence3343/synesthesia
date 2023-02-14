@@ -49,3 +49,8 @@ body{height:100vh;}
   color: #fff;
   border-bottom-color: #fff;
 }   
+
+.img{
+  height=auto;
+  width=100%;
+}
