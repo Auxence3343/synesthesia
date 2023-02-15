@@ -50,6 +50,13 @@ body{height:100vh;}
   border-bottom-color: #fff;
 }   
 
+.m-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
 .img{
   height:auto;
   width:70%;
