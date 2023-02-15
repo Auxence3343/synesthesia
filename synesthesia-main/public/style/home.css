@@ -51,6 +51,12 @@ body{height:100vh;}
 }   
 
 .img{
-  height=auto;
-  width=100%;
+  height:auto;
+  width:70%;
+  margin: auto
+}
+
+.img2{
+  height:auto;
+  width:8%;
 }
