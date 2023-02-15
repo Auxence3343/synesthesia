@@ -1,85 +1,101 @@
-<!DOCTYPE html>
-<html lang ="en">
+<!doctype html>
+<html lang="en" class="h-100 text-center">
+
 <head>
-<title> Form </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Synesthesia - HOME</title>
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link href="style/home.css" rel="stylesheet">
+    <meta name="theme-color" content="#7952b3">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.slidecontainer {
-  width: 100%;
-}
-
-.slider {
-  width: 100%;
-  height: 25px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-.slider:hover {
-  opacity: 1;
-}
-
-.slider::-webkit-slider-thumb {
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  background: #04AA6D;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: #04AA6D;
-  cursor: pointer;
-}
-</style>
 </head>
-<body>
 
-<h1>Give us your thoughts about our app !</h1>
+<body class="d-flex h-100 text-center">
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+      
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column ">
 
-<div class="slidecontainer">
-  <p>Quality of the music</p>
-  <input type="range" min="1" max="100" value="50" id = "Q">
-  <p>Value: <span id="demoQ"></span></p>
-</div>
+        <header class="mb-1">
+            <div>
+                <h3 class="float-md-start mb-0">Synesthes.ia</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Outil</a>
+                    <a class="nav-link" href="#">Jeu</a>
+                    <a class="nav-link" href="#">A propos</a>
+                </nav>
+            </div>
+        </header>
 
-<div class="slidecontainer">
-    <p>Was it close to the painting ?</p>
-    <input type="range" min="1" max="100" value="50" id ="W">
-    <p>Value: <span id="demoW"></span></p>
-</div>
+        <main class="m-auto">
+            
+            <fieldset class="form-group">
+                <legend class="mt-auto"> <h1>Donnez nous votre avis ! </h1></legend>
+                  <label for="customRange1" class="form-label">Quality of the music</label>
+                  <div class ="d-flex flex-line"> 
+                    <input type="range" class="form-range mx-auto" min="0" max="5" step="0.5" id="Quality" onclick = "sliderValue()">
+                    <p class = "mx-auto"> <span id="QualityD"></span> </p>
+                  </div>
+                  <label for="disabledRange" class="form-label">Was the music accurate ?</label>
+                  <div class ="d-flex flex-line"> 
+                    <input type="range" class="form-range mx-auto" min="0" max="5" step="0.5" id="Accuracy" onclick = "sliderValue()">
+                    <p class = "mx-auto"> <span id="AccuracyD"></span> </p>
+                  </div>
+                  <label for="customRange3" class="form-label">Was the service quick ?</label>
+                  <div class ="d-flex flex-line"> 
+                    <input type="range" class="form-range mx-auto" min="0" max="5" step="0.5" id="Quickness" onclick = "sliderValue()">
+                    <p class = "mx-auto"> <span id="QuicknessD"></span> </p>
+                  </div>
+                  
+              </fieldset>
 
-<div class="slidecontainer">
-    <p>Can't remember the third shit</p>
-    <input type="range" min="1" max="100" value="50" id ="C">
-    <p>Value: <span id="demoC"></span></p>
-</div>
+              <!-- Il faut afficher les résultats et dans le vrai site, il faut les envoyer dans un autre endroit-->
+              <button type="submit" class="btn btn-primary" onclick = "sliderValue()">Submit</button>
+            </fieldset>
 
-<script>
-    var sliderQ = document.getElementById("Q");
-    var outputQ = document.getElementById("demoQ");
-    outputQ.innerHTML = sliderQ.value;
+            <script> 
 
-    var sliderW = document.getElementById("W");
-    var outputW = document.getElementById("demoW");
-    outputW.innerHTML = sliderW.value;
+                var sliderQ = document.getElementById("Quality");
+                var outputQ = document.getElementById("QualityD");
+                outputQ.innerHTML = sliderQ.value * 2;
+            
+                var sliderW = document.getElementById("Accuracy");
+                var outputW = document.getElementById("AccuracyD");
+                outputW.innerHTML = sliderW.value * 2;
+            
+                var sliderC = document.getElementById("Quickness");
+                var outputC = document.getElementById("QuicknessD");
+                outputC.innerHTML = sliderC.value * 2;
+                
+                function sliderValue() {
+                  outputQ.innerHTML = sliderQ.value * 2;
+                  outputW.innerHTML = sliderW.value * 2;
+                  outputC.innerHTML = sliderC.value * 2;
+                }
 
-    var sliderC = document.getElementById("C");
-    var outputC = document.getElementById("demoC");
-    outputC.innerHTML = sliderC.value;
-    
-    slider.value = function() {
-      outputQ.innerHTML = this.value;
-      outputW.innerHTML = this.value;
-      outputC.innerHTML = this.value;
-    }
-</script>
+            </script>
 
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 </html>
