@@ -72,8 +72,12 @@
                         <h3 class="card-title">
                             Essayez !
                         </h3>
-                        <a class="btn btn-lg btn-secondary fw-bold border-white bg-white">Ecouter</a>
-                        <a class="btn btn-lg btn-secondary fw-bold border-white bg-white">Télécharger</a>
+                        <p class = "mt-0 mb-auto"> 
+                            <audio controls>
+                                <source src="Musique/brunomars.mp3" type="audio/mpeg">Your browser does not support the audio tag.
+                                </audio>
+                        </p>
+                        <a class="btn btn-lg btn-secondary fw-bold border-white bg-white" value="télécharger nom_de_ta_page" onclick="download(nom_de_ta_page)">Télécharger</a>
                         
                 </div>
                 </div>
@@ -97,8 +101,18 @@
         </div>
     </div>
 
+    <script type="text/javascript">
+        function download(sFile) {
+           var s  = document.createElement("script");
+           s.src  = "download.php?sFilename="+sFile;
+           s.type = "text/javascript";
+           document.body.appendChild(s);
+        }
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>
