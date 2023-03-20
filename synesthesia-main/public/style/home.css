@@ -50,13 +50,6 @@ body{height:100vh;}
   border-bottom-color: #fff;
 }   
 
-.m-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
-  margin-top: auto !important;
-  margin-bottom: auto !important;
-}
-
 .img{
   height:auto;
   width:70%;
@@ -66,6 +59,23 @@ body{height:100vh;}
 .img2{
   height:auto;
   width:8%;
+}
+
+.m-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
+
+.img-2{
+  height: auto;
+  width: 7%;
 }
 
 .card-game {
