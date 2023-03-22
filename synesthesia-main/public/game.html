@@ -2,12 +2,12 @@
 <html lang="en" class="h-100 text-center">
 
 <head>
+    <link rel="icon" type="image/png" href="Images/peinture.png" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Synesthesia - HOME</title>
+    <title>Synesthesia - GAME</title>
     <link href="style/bootstrap.min.css" rel="stylesheet">
     <link href="style/home.css" rel="stylesheet">
-    <link href="script/dynamic.js">
     <meta name="theme-color" content="#7952b3">
 
 </head>
@@ -37,53 +37,43 @@
                 <nav class="nav nav-masthead justify-content-center float-md-end ms-auto">
                     <a class="nav-link" href="./index.html">Home</a>
                     <a class="nav-link" href="./selection.html">Essayez !</a>
-                    <a class="nav-link active" aria-current="page" href="./game.html">Jeu</a>
-                    <a class="nav-link" href="#">A propos</a>
+                    <a class="nav-link active" aria-current="page" href="./gameindex.html">Jeu</a>
+                    <a class="nav-link" href="./apropos.html">A propos</a>
                 </nav>
             </div>
         </header>
 
         <main class="px-auto mt-2 mb-0">
-            <h1>Quel est le tableau correspondant ? </h1>
-            <p class="lead">Choisissez le tableau, qui selon vous, correspond à la musique passée</p>
+            <h1><br>Questions pour un champion </h1>
+            <p class="lead"><br><br>Qui a peint ce tableau ?<br></p>
+            <p class = "mt-0 mb-auto"> 
+
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="texte indice 1 !" data-bs-original-title="Popover Indice 1">Indice 1</button>
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="texte indice 2 !" data-bs-original-title="Popover Indice 2" aria-describedby="popover227901">Indice 2</button>
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="texte indice 3 !" data-bs-original-title="Popover Indice 3">Indice 3</button>
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="texte indice 4 !" data-bs-original-title="Popover Indice 4">Indice 4</button>
+        
+        </p>
+        <div class="boxNext">
+            <p class="lead"><br><br><br>
+                <a href="./index.html" class="btn btn-primary fw-bold border-white bg-white">Retour à l'accueil</a>
+            </p>
+          </div>
+          
+          <footer class="mt-auto">
+            <p>Projet réalisé par le groupe 6.4 du PACT 2023 de Télécom Paris</p>
+        </footer>
         </main>
 
-        <p class = "mt-0 mb-auto"> 
-            <audio controls>
-                <source src="Musique/brunomars.mp3" type="audio/mpeg">Your browser does not support the audio tag.
-                </audio>
-        </p>
+        
 
-        <div class = "d-flex flex-line"> 
+        
+            
+       
+    
 
-            <div class="card-game border-primary mx-4 mb-2 mt-auto" style="max-width: 15rem;">
-                <div class="card-body">
-                    <img class ="img m-auto" src = "Images/peinture.png" alt = "logo">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white m-auto">Choix 1</a>
-                </div>
-            </div>
+        
 
-            <div class="card-game border-primary mx-4 mb-2 mt-auto" style="max-width: 15rem;">
-                <div class="card-body">
-                    <img class ="img m-auto" src = "Images/Keith-Haring-Crack-is-Wack.jpg" alt = "logo">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white m-auto">Choix 2</a>
-                </div>
-            </div>
-
-            <div class="card-game border-primary mx-4 mb-2 mt-auto" style="max-width: 15rem;">
-                <div class="card-body">
-                    <img class ="img m-auto" src = "Images/Paysage_Mediterraneen_Picasso.jpg" alt = "logo">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white m-auto">Choix 3</a>
-                </div>
-            </div>
-
-            <div class="card-game border-primary mx-4 mb-2 mt-auto "style="max-width: 15rem;">
-                <div class="card-body">
-                    <img class ="img m-auto" src = "Images/La_Nuit_Etoilee_Van_Gogh.jpeg" alt = "logo">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white m-auto">Choix 4</a>                    </div>
-            </div>
-
-        </div>
 
     </div>
 
