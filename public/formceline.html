@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title> Form </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h1>Give us your thoughts about our app !</h1>
+
+<div class="slidecontainer">
+  <p>Quality of the music</p>
+  <input type="range" min="1" max="100" value="50" id = "Q">
+  <p>Value: <span id="demoQ"></span></p>
+</div>
+
+<div class="slidecontainer">
+    <p>Was it close to the painting ?</p>
+    <input type="range" min="1" max="100" value="50" id ="W">
+    <p>Value: <span id="demoW"></span></p>
+</div>
+
+<div class="slidecontainer">
+    <p>Can't remember the third shit</p>
+    <input type="range" min="1" max="100" value="50" id ="C">
+    <p>Value: <span id="demoC"></span></p>
+</div>
+
+<script>
+    var sliderQ = document.getElementById("Q");
+    var outputQ = document.getElementById("demoQ");
+    outputQ.innerHTML = sliderQ.value;
+
+    var sliderW = document.getElementById("W");
+    var outputW = document.getElementById("demoW");
+    outputW.innerHTML = sliderW.value;
+
+    var sliderC = document.getElementById("C");
+    var outputC = document.getElementById("demoC");
+    outputC.innerHTML = sliderC.value;
+    
+    slider.value = function() {
+      outputQ.innerHTML = this.value;
+      outputW.innerHTML = this.value;
+      outputC.innerHTML = this.value;
+    }
+</script>
+
+</body>
+</html>

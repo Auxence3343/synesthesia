@@ -1,34 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-		<title>Selection</title>
-	</head>
-  <body>
-    <h1>Let's listen to some music</h1>
+<!doctype html>
+<html lang="en" class="h-100 text-center">
 
-    <div id="Home page button"> 
-        <a href="./synesthesia.html"> <img src=".Images/home-button-icon.webp" alt="home button"/> </a>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Synesthesia - HOME</title>
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link href="style/home.css" rel="stylesheet">
+    <link href="script/dynamic.js">
+    <meta name="theme-color" content="#7952b3">
+
+</head>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column ">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">Synesthes.ia</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Essayez !</a>
+                <a class="nav-link" href="./game.html">Jeu</a>
+                <a class="nav-link" href="#">A propos</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <header class="px-1">
+        <div style="display:flex; align-items:center;">
+            <div class="picture-container" style="display:flex;">
+                <a href="./listening2moi.html"><img class="ms-auto me-0" src="Images/La_Nuit_Etoilee_Van_Gogh.jpeg" alt="Image 1" width="200" height="250"/></a>
+                <a href="./listening2moi.html"><img class="me-auto ms-0" src="Images/Le_Cri_Munch.jpg" alt="Image 2" width="200" height="250" /></a>
+                <a href="./listening2moi.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Valider</a>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="Insert Image Here Button"> 
+        <main class="px-3">
+            <p class="lead">
+                <div class="button-container">
+                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Explorez notre sélection</a>
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename"
+                        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white"></a>
+                    </form>
+           
+                </div>
+            </p>
+        </main>
     </div>
 
-    <div id="Suggestions">
+    <footer class="mt-auto">
+        <p>Projet réalisé par le groupe 6.4 du PACT 2023 de Télécom Paris</p>
+    </footer>
 
-        <div id = "Suggestion1"> 
-            <a href="./listening.html"><img src=".Images/Keith-Haring-Crack-is-Wack.jpg" alt = "Keith-Haring-Crack-is-Wack"/>  </a>
-        </div>
+</div>
 
-        <div id="Suggestion2"> 
-            <a href="./listening.html"> <img src=".Images/La_Nuit_Etoilee_Van_Gogh.jpeg" alt="La_Nuit_Etoilee_Van_Gogh"/> </a>
-        </div>
-
-    </div>  
-
-        <div id="Insert Image Here Button"> 
-            <a href="./listening.html"><img src="./UPloadButton.png" alt = "upload button"/>  </a>
-            <form action="/action_page.php">
-                <input type="file" id="myFile" name="filename">
-                <input type="submit">
-            </form>
-        </div>
-
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"></script>
+</body>
 </html>

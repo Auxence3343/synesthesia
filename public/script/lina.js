@@ -1,0 +1,1 @@
+<script> function ValueDownload()={var download = value.getElementById("")} </script>
