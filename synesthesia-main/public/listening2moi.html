@@ -10,6 +10,7 @@
     <link href="style/home.css" rel="stylesheet">
     <link href="script/dynamic.js">
     <meta name="theme-color" content="#7952b3">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 </head>
 
@@ -57,7 +58,7 @@
             <p class="lead">
                 <div class="card text-white bg-dark mb-3" style="max-width: 100rem; max-height:50rem">
                     <h1 class="card-header">Nom du tableau</h1>
-                    <div class="card-body d-flex flex-column">
+                    <div class="card-body d-flex flex-column" id="result">
                         <img class="img" src="Images/The_Zouave.jpeg" alt="tableau généré">
                         <a href="https://fr.wikipedia.org/wiki/Zouaves" class="card-link text-muted">Documentation sur l'oeuvre</a>
                     </div>
@@ -103,6 +104,10 @@
     </div>
 
     <script type="text/javascript">
+
+        $(document).ready(function(){
+            $('#result').load('./selection.html #foresult');
+        });
         /*function download(sFile) {
            var s  = document.createElement("script");
            s.src  = "download.php?sFilename="+sFile;
@@ -123,11 +128,12 @@
         document.body.removeChild(link);
         });*/
 
-        function downloadTest() {fetch('Images/Musique/brunomars.mp3').then(response => response.blob()).then(blob => {
+        function downloadTest() {fetch('Musique/brunomars.mp3').then(response => response.blob()).then(blob => {
             const url = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = 'Musique/brunomars.mp3';
+            link.download = 'brunomars.mp3';
+            console.log("test");
         });}
 
     </script>

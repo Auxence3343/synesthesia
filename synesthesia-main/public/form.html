@@ -7,9 +7,7 @@
     <title>Synesthesia - HOME</title>
     <link href="style/bootstrap.min.css" rel="stylesheet">
     <link href="style/home.css" rel="stylesheet">
-    <link href="script/dynamic.js">
     <meta name="theme-color" content="#7952b3">
-
 </head>
 
 <body class="d-flex h-100 text-center">
@@ -69,12 +67,15 @@
               <button type="submit" class="btn btn-primary" onclick = "sliderValue()">Submit</button>
             </fieldset>
 
-            <script> 
+            <link href="script/dynamic.js" rel="script">
+
+            <!--<script> 
 
                 var sliderQ = document.getElementById("Quality");
                 var outputQ = document.getElementById("QualityD");
                 outputQ.innerHTML = sliderQ.value * 2;
             
+                console.log("test2");
                 var sliderW = document.getElementById("Accuracy");
                 var outputW = document.getElementById("AccuracyD");
                 outputW.innerHTML = sliderW.value * 2;
@@ -89,7 +90,7 @@
                   outputC.innerHTML = sliderC.value * 2;
                 }
 
-            </script>
+            </script>-->
 
         </main>
 

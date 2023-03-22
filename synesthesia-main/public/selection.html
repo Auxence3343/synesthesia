@@ -33,8 +33,8 @@
             <div class="picture-container" style="display:flex;">
                 <a href="./listening2moi.html"><img class="ms-auto me-0" src="Images/La_Nuit_Etoilee_Van_Gogh.jpeg" alt="Image 1" width="200" height="250"/></a>
                 <a href="./listening2moi.html"><img class="me-auto ms-0" src="Images/Le_Cri_Munch.jpg" alt="Image 2" width="200" height="250" /></a>
-                <a href="./listening2moi.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Valider</a>
             </div>
+            <a href="./listening2moi.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Valider</a>
         </div>
     </header>
 
@@ -42,17 +42,24 @@
     <div id="Insert Image Here Button"> 
         <main class="px-3">
             <p class="lead">
-                <div class="button-container">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Explorez notre sélection</a>
-                    <form action="/action_page.php">
-                        <input type="file" id="myFile" name="filename"
-                        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white"></a>
-                    </form>
-           
+                <div class="button-container" id="foresult">
+                    <a class="btn btn-lg btn-secondary fw-bold border-white bg-white">Explorez notre sélection</a>
+                    <label for="upload_button" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Choisissez une image</label> 
+                    <input type="file" id="upload_button" class="form-control">       
                 </div>
             </p>
         </main>
     </div>
+
+    <script>
+        const uploadButton = document.getElementById("upload_button");
+        uploadButton.addEventListener('change', (event) => {
+        const file = event.target.files[0];
+        console.log(file);
+        
+        // Do something with the file, such as uploading it to a server
+        });
+    </script>
 
     <footer class="mt-auto">
         <p>Projet réalisé par le groupe 6.4 du PACT 2023 de Télécom Paris</p>

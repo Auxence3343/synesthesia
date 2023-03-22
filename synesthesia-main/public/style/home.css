@@ -131,6 +131,10 @@ body{height:100vh;}
   align-items: center;
 }
 
+.input-file{
+  display: none;
+}
+
 .card-game {
   --bs-card-spacer-y: 1.5rem;
   --bs-card-spacer-x: 1.5rem;
