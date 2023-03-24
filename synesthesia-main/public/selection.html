@@ -11,6 +11,7 @@
     <link href="style/home.css" rel="stylesheet">
     <link href="script/dynamic.js">
     <meta name="theme-color" content="#7952b3">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 </head>
 
@@ -35,7 +36,7 @@
 
         <div class ="boxChoose center" id = "foresult">
             <label for="upload_button" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Choisissez une image</label> 
-            <input type="file" id="upload_button" class="form-control">       
+            <input type="file" id="upload_button" class="input-file" >       
         </div>
 
         <div class ="boxDisplayImage1">
@@ -54,8 +55,8 @@
             <a href="./listening.html"><img class="mx-auto" src="Images/The_Zouave.jpeg" alt="Image 2" width="200" height="250"/></a>
         </div>
 
-        <div id = "display" class ="boxDisplayChoice card bg-blue center">
-            <img class="mx-auto" src="Images/Paysage_Mediterraneen_Picasso.jpg"  alt="Image 2" width="200" height="250"/>
+        <div  class ="boxDisplayChoice card bg-blue center">
+            <img id = "display" class="mx-auto" src="Images/Paysage_Mediterraneen_Picasso.jpg"  alt="Image 2" width="200" height="250"/>
         </div>
             
         </div class = "boxValider my-auto">
@@ -72,19 +73,40 @@
 
 </div>
 
+
 <script>
+    var fileName;
+    $('#upload_button').on('change',function(){
+        //get the file name
+        fileName = $(this).val();
+        //replace the "Choose a file" label
+        console.log("[debug] : " + fileName);
+    });
+
+
+
     /*const uploadButton = document.getElementById("upload_button");
     uploadButton.addEventListener('change', (event) => {
     const file = event.target.files[0];
     console.log(file);
     
     // Do something with the file, such as uploading it to a server
-    });*/
+    });
     function displayImage() {
         var image = document.createElement("IMG");
         image.setAttribute("src", "./Images/Keith-Haring-Crack-is-Wack.jpg");
-        document.body.appendChild(image);
+        document.body.getElementById("display").appendChild(image);
+    }*/
+    
+    function displayImage() {
+        //var filename = document.getElementById('file-id').files[0].name;
+        var image = document.getElementById("display");
+        console.log("default " + filename);
+        var newsrc = "./Images/" + fileName.substring(fileName.indexOf("th") +3 );
+        console.log("new " + newsrc);
+        image.src = newsrc;
       }
+
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
