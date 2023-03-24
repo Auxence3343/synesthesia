@@ -30,12 +30,12 @@
     <div class = "grid-selection-container">
 
         <div class ="boxExplore center">
-            <button class="btn btn-lg btn-secondary fw-bold border-white bg-white" onclick = "displayImage()">Explorez notre sélection</button>
+            <button class="btn btn-lg btn-secondary fw-bold border-white bg-white" onclick="displayImage()">Explorez notre sélection</button>
         </div>
 
         <div class ="boxChoose center" id = "foresult">
             <label for="upload_button" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Choisissez une image</label> 
-            <input type="file" id="upload_button" class="input-file">       
+            <input type="file" id="upload_button" class="form-control">       
         </div>
 
         <div class ="boxDisplayImage1">
@@ -54,7 +54,7 @@
             <a href="./listening.html"><img class="mx-auto" src="Images/The_Zouave.jpeg" alt="Image 2" width="200" height="250"/></a>
         </div>
 
-        <div id = "display" class ="boxDisplayChoice center">
+        <div id = "display" class ="boxDisplayChoice card bg-blue center">
             <img class="mx-auto" src="Images/Paysage_Mediterraneen_Picasso.jpg"  alt="Image 2" width="200" height="250"/>
         </div>
             
@@ -82,8 +82,8 @@
     });*/
     function displayImage() {
         var image = document.createElement("IMG");
-        logo.setAttribute("src", "./Images/Keith-Haring-Crack-is-Wack.jpg");
-        document.div.appendChild(image);
+        image.setAttribute("src", "./Images/Keith-Haring-Crack-is-Wack.jpg");
+        document.body.appendChild(image);
       }
 </script>
 
